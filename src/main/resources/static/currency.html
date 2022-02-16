@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="module" src="currency.js"></script>
+</head>
+<body>
+<p>Beregn norske kroner</p>
+<a href="load.html"><p>Last valutaer</p></a>
+<table>
+    <tr>
+        <td>Valutasort (SEK, USD, EUR)</td>
+        <td><label for="currency"></label><input type="text" id="currency"/></td>
+    </tr>
+    <tr>
+        <td>Verdi</td>
+        <td><label for="value"></label><input type="text" id="value"/></td>
+    </tr>
+</table>
+<button id="getAmount">Regn om til NOK</button>
+<div id="output"></div>
+</body>
+</html>
